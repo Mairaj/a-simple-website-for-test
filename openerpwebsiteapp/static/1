@@ -1,0 +1,93 @@
+.container1{
+		height:100%;
+		width:100%;
+		position:relative;	
+}
+
+.formcontainer{
+        height:100%;
+        width:37.5%;
+	position:relative;
+	float:left;
+	background:green;
+}
+.right{
+	height:100%;
+	width:25%;
+	position:relative;
+	float:right;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	background:red;
+}
+.right1{
+        height:100%;
+        width:37.5%;
+        position:relative;
+        float:left;
+        padding:0px 0px 0px 0px;
+        margin:0px 0px 0px 0px;
+	background:blue;
+	display:inline;
+}
+
+.error{
+	height:10%;
+	width:60%;
+	position:absolute;
+
+}
+.row{
+	height:10%;
+	width:60%;
+        position:relative;
+        margin-bottom:0px;;
+}
+.row input{
+        height:100%;
+        width:100%;
+	position:relative;
+
+}
+.msg{
+	height:30%;
+	width:60%;
+	position:relative;
+	
+}
+input[type=text]:hover{
+        background:#786;
+        font-size:1em;
+}
+
+input[type=submit]:hover{
+        height:5%;
+        width:50%;
+        position:relative;
+}
+
+.error{
+	height:10%;
+        width:60%;
+	margin-left:70%;
+        position:relative;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.error ul li{
+	 list-style:none;
+
+         margin:0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+}
+
+
+.error ul{
+	 margin:0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+}
+textarea{
+	height:50%;
+	width:70%;
+	position:relative;
+}

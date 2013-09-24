@@ -1,0 +1,267 @@
+body,html{
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+.header{
+	height:17%;
+	width:100%;
+}
+.container{
+	height:83%;
+	width:100%;
+	position:relative;
+	background:#DFFFF4;
+	overflow:hidden;
+	box-shadow:0px 15px 50px rgba(black);
+	
+}	
+
+.container-right{
+	height:100%;
+	width:24.6%;
+	position:relative;
+	float:right;
+	background:white;
+/*	background:#FCFCFC;*/
+        box-shadow:0px 0px 8px rgba(black);
+}
+.category{		
+		height:10%;
+		width:70%;
+		position:relative;
+		left:10%;
+		margin:2px;
+		top:1%;
+		font-weight:Bold;
+		color:white;
+		font-size:1.4em;
+		border-radius:2px;
+		text-align:center;
+		box-shadow:00px  5px 5px black;
+		margin:10px 10px 0px 10px;
+		
+}
+.module_child{
+		height:100%;
+		width:20%;
+		position:relative;
+		background:white;
+		display:none;
+		}
+.container-center{
+	height:100%;
+	width:75%;
+	position:relative;
+	float:left;
+	display:inline;
+	background:#FCFCFC;
+	color:#161616;
+
+}
+.container-center-content{
+	height:90%;
+	width:90%;
+	position:relative;
+	margin:auto;
+	margin-top:3%;
+	
+
+}
+.container-center-content1{
+	height:49%;
+	width:49%;
+	position:relative;
+	float:left;
+	display:inline;
+	background:url("/static/idea.png");
+	background-size:100% 100%;
+	opacity:.8;
+	padding-left:1%;
+}
+.container-center-content2{
+        height:49%;
+        width:49%;
+        position:relative;
+        float:left;
+        display:inline;
+        background:url("/static/dna.png");
+        background-size:100% 100%;
+	opacity:.8;
+        padding-left:1%;
+}
+.container-center-content3{
+        height:49%;
+        width:49%;
+        position:relative;
+        float:left;
+        display:inline;
+        background:url("/static/cofee.png");
+        background-size:100% 100%;
+	opacity:.8;
+        padding-left:1%;
+}
+.container-center-content4{
+        height:49%;
+        width:49%;
+        position:relative;
+        float:left;
+        display:inline;
+        background:url("/static/zero.png");
+        background-size:100% 100%;
+	opacity:.8;
+        padding-left:1%;
+}
+
+.container-left{
+        height:100%;
+        width:75%;
+	left:0px;
+        position:absolute;
+        float:left;
+	z-index:15;
+        display:inline;
+        background:purple;
+	display:none;
+}
+
+
+.header-items{
+		height:100%;
+		width:12.3497%;
+		position:relative;
+		float:left;	
+		display:inline;
+		color:white;;	
+		border:1px solid grey;
+		box-shadow::10px 10px 10px rgba(black);
+}
+
+.header-items p{
+font-family:cambria;
+font-weight:bold;
+color:#121212;
+size:1.2em;
+}
+
+
+.footer{
+	z-index:180;
+	height:20%;
+	width:100%;
+	border-top:2px solid grey;
+	background:#19497A;
+	color:white;
+	font-family:cambria;
+
+}
+.footer1{
+	height:99%;
+	width:33.1%;
+	position:relative;
+	float:left;
+	display:inline;
+	margin-left:2px;
+}
+.footer3{
+        height:99%;
+        width:33.1%;
+        position:relative;
+	display:inline;
+}
+.info{
+	margin-left:268px;
+	float:left;	
+	position:relative;
+	margin-top:20px;
+	}
+.founder{
+	margin-left:10px;
+	float:left;
+	position:relative;
+	margin-top:20px;
+	}
+
+.minifooter{
+	height:3%;
+	width:100%;
+	/*background:#161616;*/
+	background:#12212E;
+}
+.close{
+	height:30px;
+	width:30px;
+	background:url('close.jpg');
+	float:right;
+	position:absolute;
+	z-index:3;
+}
+.loading{
+   background:url('/static/load1.gif') no-repeat center center;
+   height: 70%;
+   width: 70%;
+   position: fixed;
+   z-index: 1000;
+   left: 10%;
+   top: 10%;
+
+}
+
+.formclass{
+        height:100%;
+        width:75%;
+        position:relative;
+        background:pink;
+        float:left;
+        display:inline;
+}
+.content{
+padding:3px;
+margin:4% auto auto 5%;
+height:80%;
+width:75%;
+background:white;
+border-radius:4px;
+border:4px solid #19497A;
+
+}
+
+.arrow-up {
+	position:absolute;
+
+	top:17.5%;
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	z-index:5;	
+	border-bottom: 15px solid black;
+}
+.arrow{
+	background:white;
+	height:2.8%;
+	width:100%;
+	position:relative;
+	box-shadow:15px 15px 15px 15px black;
+}
+
+
+h2,p,h5{
+	font-family:cambria;
+	padding-left:8px;
+}
+.msg{
+position:absolute;
+height:400px;
+width:500px;
+
+}
+
+.information{
+		height:25%;
+		width:100%;
+		margin-left:45px;	
+		}
+
+

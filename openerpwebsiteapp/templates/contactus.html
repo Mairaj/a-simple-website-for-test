@@ -1,0 +1,50 @@
+{{form.media}}
+	<div class="container-center">
+			<div class="msg">
+				{%if msg%}
+					{{msg}}
+				{%endif%}
+			</div>
+		<div class="border">
+			<div class="left">
+			{%include 'envelope.html'%}
+
+			</div>
+			<div class="right">
+					 {%for fields in form%}
+                                {%ifnotequal fields.html_name 'message'%}
+                                <div class="row">
+                                        {{fields}}
+                                </div>
+                                        {%if fields.errors%}
+                                <div class="errors">
+                                        {{fields.errors}}
+                                </div>
+                                        {%endif%}
+                                        {%endifnotequal%}
+                                        {%endfor%}
+                                 <div class="textarea">
+                                        {{form.message}}
+                                </div>
+                                    {%if form.message.errors%}
+                                <div class="errors">
+                                        {{form.message.errors}}
+                                </div>
+                                        {%endif%}
+                                 <input type="button" class="contactbutton" value="SUBMIT" style="font-size:1.2em;color:#368AFF; font-style:italic;"/>
+
+
+
+			</div>
+		</div>
+</div>
+<div class="container-right">
+<div class="information">
+<h2>ERPs</h2>
+<h4>&nbsp;&nbsp;,
+<br>&nbsp;&nbsp;
+<br>&nbsp;&nbsp;email-id:wwww.mmm.com
+<br>&nbsp;&nbsp;mmm@gmail.com
+<br>&nbsp;&nbsp;Contact No-01360222018</h4>
+</div>
+</div>
